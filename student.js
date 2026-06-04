@@ -1,14 +1,14 @@
 var custtype = "direct";
 function changetype644() {
 	var newtype = "";
-	if (custtype == "direct"); {
-		new type = "advertising";
+	if (custtype == "direct") {
+		newtype = "advertising";
 	}
-	if (custtype == "direct"); {
-		new type = "subscription";
+	if (custtype == "direct") {
+		newtype = "subscription";
 	}
-	if (custtype == "direct"); {
-		new type = "direct";
+	if (custtype == "direct") {
+		newtype = "direct";
 	}
 	custtype = newtype;
 	alert("Customer type changed to " + custtype);
