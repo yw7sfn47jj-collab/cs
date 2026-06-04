@@ -1,3 +1,33 @@
+function getBreaks273() {
+    var num = 0;
+    do {
+		num = prompt("Enter a number from 1 to 5");
+        num = Number(num);
+	} 
+	while (num < 1 || num > 5);
+	var output = "";
+    var i = 0;
+    while (i < num) {
+        output = output + "<br>";
+        i = i + 1;
+    }
+    document.getElementById("breaks273").innerHTML = output;
+} 
+function getCards645() {
+	var num = 0;
+	do {
+		num = prompt("Enter a number from 2 to 7");
+        num = Number(num);
+    }
+    while (num < 2 || num > 7);
+	var output = "";
+    var i = 0;
+	while (i < num) {
+        output = output + "Card #" + i + " ";
+        i = i + 1;
+    }
+    document.getElementById("cards645").innerHTML = output;
+}
 function getName326() {
 	var cname = prompt("Enter your name");
 	var message = "Your Name Is: " + cname;
