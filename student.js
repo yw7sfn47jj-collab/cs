@@ -1,3 +1,27 @@
+function getName326() {
+	var cname = prompt("Enter your name");
+	var message = "Your Name Is: " + cname;
+	if (cname.length < 5) {
+		message = message + " You have a short name";
+	} else if (cname.length < 10) {
+		message = message + " You have a medium name";
+    } else {
+        message = message + " You have a long name";
+    }
+    document.getElementById("name326").innerHTML = message;
+}
+function getAge206() {
+    var age = prompt("Enter your age");
+    var message = "Your Age Is: " + age;
+    if (age < 18) {
+		message = message + " You are a kid";
+    } else if (age < 50) {
+        message = message + " You are an adult";
+    } else {
+        message = message + " You are a senior citizen";
+    }
+    document.getElementById("age206").innerHTML = message;
+}
 var custtype = "direct";
 function changetype644() {
 	var newtype = "";
