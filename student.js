@@ -14,13 +14,13 @@ function changetype644() {
 	alert("Customer type changed to " + custtype);
 }
 function displaytype8190() {
-	if (custtype == "direct"); {
+	if (custtype == "direct") {
 		alert("Buy Now! From this web page! My children need new shoes!");
 	}
-	if (custtype == "direct"); {
+	if (custtype == "direct") {
 		alert("Support our advertisers! Click on an ad, so I can make money!");
 	}
-	if (custtype == "direct"); {
+	if (custtype == "direct") {
 		alert("Renew your subscription today! My children need medicine!");
 	}
 }
