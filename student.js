@@ -13,7 +13,7 @@ function changetype644() {
 	custtype = newtype;
 	alert("Customer type changed to " + custtype);
 }
-function displaytype8190() {
+function displaytype819() {
 	if (custtype == "direct") {
 		alert("Buy Now! From this web page! My children need new shoes!");
 	}
