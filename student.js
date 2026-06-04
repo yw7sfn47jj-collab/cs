@@ -9,7 +9,7 @@ function displayspecial419() {
 	  alert("The current special is #2");
    }
    if (special == 3) {
-	  alert("The current special is #3";
+	  alert("The current special is #3");
    }
    special = special + 1;
    if (special > 3) {
